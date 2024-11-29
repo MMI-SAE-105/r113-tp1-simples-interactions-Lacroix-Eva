@@ -4,13 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="alternate" hreflang="fr" href="https://capable-pothos-e0848d.netlify.app" />
+  <link rel="alternate" hreflang="en" href="https://capable-pothos-e0848d.netlify.app" />
   <title>Simples interactions</title>
   <script type="module" src="/src/js/script.js"></script>
 </head>
 
 <body>
   <h1>Test de site</h1>
-  <a class="language-btn" href="/en/index.html"> FR | <span>EN</span> </a>
+  <a class="language-btn" href="/en/index.html" onclick="document.cookie = `nf_lang=en; path=/ ; SameSite=Strict`"> FR | <span>EN</span> </a>
   <p>Ouvrir cette page avec LiveServer (Go Live)</p>
   <p>Suivre les indications du fichier <code>README.md</code> (à faire dans la console)</p>
   <h1>Simples interactions</h1>

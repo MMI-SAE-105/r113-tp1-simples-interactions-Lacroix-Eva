@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="alternate" hreflang="fr" href="https://capable-pothos-e0848d.netlify.app" />
+    <link rel="alternate" hreflang="en" href="https://capable-pothos-e0848d.netlify.app" />
     <title>Les liens vers la page</title>
 </head>
 <body>
     <h1>Les liens vers la page</h1>
     <ul>
-        <li><a href="fr/index.html">Acceuil en français</a></li>
-        <li><a href="en/index.html">Acceuil en anglais</a></li>
+        <li><a href="fr/index.html" onclick="document.cookie = `nf_lang=fr; path=/ ; SameSite=Strict`">>Acceuil en français</a></li>
+        <li><a href="en/index.html" onclick="document.cookie = `nf_lang=en; path=/ ; SameSite=Strict`">">Acceuil en anglais</a></li>
 </body>
 </html>
