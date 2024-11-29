@@ -13,6 +13,3 @@ collH2.forEach((elm)=>{
         evt.target.style.color = "red";
     });
 });
-
-
-

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Interactions</title>
+  <script type="module" src="/src/js/script.js"></script>
+</head>
+
+<body>
+  <h1>Site Test</h1>
+  <p>Open this page with LiveServer (Go Live)</p>
+  <p>Follow the instructions in the <code>README.md</code> file (to be done in the console)</p>
+  <h1>Simple Interactions</h1>
+  <h2>Change Text Color</h2>
+  <p id="a-mettre-en-rouge">Paragraph to be turned red Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+    Corporis nesciunt corrupti natus quibusdam.</p>
+  <ul>
+    <li><code>document.querySelector()</code></li>
+    <li><code>elm.style.color="red"</code></li>
+  </ul>
+  <h2>React to a Click</h2>
+  <button id="en-rouge-suite-a-click">Turn red after a click</button>
+  <ul>
+    <li><code>elm.addEventListener()</code></li>
+  </ul>
+  <h1>Element Collections</h1>
+  <h2>Find all 'H2' in the document</h2>
+  <p>Then for each, after a click, turn the event target red</p>
+  <ul>
+    <li><code>document.querySelectorAll()</code></li>
+    <li><code>coll.forEach((elem)=>{/* ... */})</code></li>
+    <li><code>elm.addEventListener('click',(evt)=>{ console.log(evt.target)})</code></li>
+  </ul>
+  <h1>External Script</h1>
+  <p>Redo the codes in the <code>/src/js/script.js</code> file.</p>
+  <p>Variable declarations must be preceded by <code>const</code>.</p>
+
+  <p><strong>Don't forget to "Commit" and "Push" to submit</strong></p>
+</body>
+
+</html>
